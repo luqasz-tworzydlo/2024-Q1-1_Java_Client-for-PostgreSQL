@@ -8,11 +8,8 @@ import java.util.Scanner;
 // => Przedmiot: Zaawansowane technologie bazodanowe
 //
 //////////////////////////////////////////////////
-// [aplikacja do łączenia się z bazą danych PostgreSQL]
-//////////////////////////////////////////////////
-//
-// Łukasz Tworzydło - nr albumu: gd29623
-//
+// [prosta aplikacja do łączenia się z lokalną
+// bądź zewnętrzną bazą danych PostgreSQL]
 //////////////////////////////////////////////////
 
 public class Menu {

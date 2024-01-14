@@ -10,11 +10,8 @@ import java.util.Scanner;
 // => Przedmiot: Zaawansowane technologie bazodanowe
 //
 //////////////////////////////////////////////////
-// [aplikacja do łączenia się z bazą danych PostgreSQL]
-//////////////////////////////////////////////////
-//
-// Łukasz Tworzydło - nr albumu: gd29623
-//
+// [prosta aplikacja do łączenia się z lokalną
+// bądź zewnętrzną bazą danych PostgreSQL]
 //////////////////////////////////////////////////
 
 public class Server {
@@ -36,7 +33,7 @@ public class Server {
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
-            System.out.println("\n[PL]Pomyślnie połączono z zewnętrzną bazą danych PostgreSQL! ^_^\n" +
+            System.out.println("\n[PL] Pomyślnie połączono z zewnętrzną bazą danych PostgreSQL! ^_^\n" +
                     "\n[ENG] Successfully connected to the external PostgreSQL database! ^_^");
 
             connection.close();
@@ -65,7 +62,7 @@ public class Server {
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
-            System.out.println("\n[PL]Pomyślnie połączono z lokalną bazą danych PostgreSQL! ^_^\n" +
+            System.out.println("\n[PL] Pomyślnie połączono z lokalną bazą danych PostgreSQL! ^_^\n" +
                     "\n[ENG] Successfully connected to the local PostgreSQL database! ^_^");
 
             connection.close();
